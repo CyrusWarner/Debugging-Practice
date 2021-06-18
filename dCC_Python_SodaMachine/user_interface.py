@@ -32,7 +32,7 @@ def display_customer_wallet_info(coins_list, total_value):
     print(f'You have {coins_list[1]} Dimes')
     print(f'You have {coins_list[2]} Nickels')
     print(f'You have {coins_list[3]} Pennies')
-    print(f'Your wallet\'s total value is {total_value}')
+    print(f'Your wallet\'s total value is {total_value} dollars')
 
 
 def display_welcome():
@@ -156,5 +156,5 @@ def validate_coin_selection(selection):
 def end_message(soda_name, change_amount):
     """Closing message displaying name of soda purchased and amount of change returned"""
     print(f'Enjoy your {soda_name.name}')
-    if change_amount >= 0:
+    if change_amount > 0:
         print(f'Dispensing ${change_amount}')
