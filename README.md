@@ -1,5 +1,5 @@
-# Previous personal portfolio (Outdated)
-## This is my previous portfolio created using only HTML and CSS
+# Soda Machine Debugging Practice Python
+## This is a practice application for getting familiar with debugging in PyCharm
 
 ## Table of Contents
 - [Project Status](#project-status)
